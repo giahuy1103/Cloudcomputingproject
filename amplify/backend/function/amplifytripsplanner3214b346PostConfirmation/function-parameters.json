@@ -1,0 +1,25 @@
+{
+  "trigger": true,
+  "modules": [
+    "custom"
+  ],
+  "parentResource": "amplifytripsplanner3214b346",
+  "functionName": "amplifytripsplanner3214b346PostConfirmation",
+  "resourceName": "amplifytripsplanner3214b346PostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerDir": "C:\\snapshot\\amplify-cli\\build\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "amplifytripsplanner3214b346PostConfirmation",
+  "skipEdit": true,
+  "permissions": {
+    "api": {
+      "amplifytripsplanner": [
+        "Query",
+        "Mutation",
+        "Subscription"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "amplifytripsplanner",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authamplifytripsplanner3214b346",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2024-04-17T06:31:14.232Z"
+}
